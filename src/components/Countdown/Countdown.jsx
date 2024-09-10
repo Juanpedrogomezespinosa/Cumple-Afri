@@ -1,4 +1,3 @@
-// src/components/Countdown/Countdown.jsx
 import React, { useEffect, useState } from "react";
 import "./Countdown.css";
 import Confetti from "../Confetti/Confetti";

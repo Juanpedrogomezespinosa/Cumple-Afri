@@ -1,10 +1,9 @@
-/* src/components/Countdown/Countdown.css */
 body {
   margin: 0;
   padding: 0;
   font-family: "Arial", sans-serif;
-  background-color: #333; /* Fondo oscuro para toda la página */
-  color: #fff; /* Color de texto claro */
+  background-color: #333;
+  color: #fff;
 }
 
 .countdown-container {
@@ -19,9 +18,9 @@ body {
 .countdown {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centrado vertical */
-  align-items: center; /* Centrado horizontal */
-  text-align: center; /* Alineamos el texto en el centro */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 20px;
   background-color: #00000053;
   border-radius: 8px;
@@ -30,7 +29,7 @@ body {
   max-width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  z-index: 1; /* Aseguramos que esté debajo del confeti */
+  z-index: 1;
 }
 
 .countdown h2 {
@@ -47,8 +46,8 @@ body {
 
 .timer-wrapper {
   display: flex;
-  justify-content: center; /* Alineación horizontal de los componentes del timer */
-  gap: 10px; /* Espacio entre los componentes */
+  justify-content: center;
+  gap: 10px;
 }
 
 .timer-container {
@@ -62,10 +61,9 @@ body {
   display: inline-block;
   font-size: 2em;
   font-weight: bold;
-  margin: 0 10px; /* Espacio entre los elementos del contador */
+  margin: 0 10px;
 }
 
-/* Media queries para dispositivos más pequeños */
 @media (max-width: 768px) {
   .countdown {
     padding: 15px;
@@ -104,7 +102,6 @@ body {
   }
 }
 
-/* Para tabletas en modo horizontal */
 @media (min-width: 769px) and (max-width: 1024px) {
   .countdown {
     padding: 20px;
@@ -124,13 +121,12 @@ body {
   }
 }
 
-/* Asegúrate de que el contenedor de confeti cubra todo el div countdown */
 .confetti-container {
-  position: absolute; /* Esto asegura que se superponga al div countdown */
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Ajusta el tamaño al 100% del div countdown */
-  height: 100%; /* Ajusta el tamaño al 100% del div countdown */
-  z-index: 2; /* Asegura que el confeti esté por encima del div countdown */
-  pointer-events: none; /* Evita que el confeti interfiera con la interacción del usuario */
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
 }

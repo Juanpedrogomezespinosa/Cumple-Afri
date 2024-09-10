@@ -1,4 +1,3 @@
-// src/components/Confetti/Confetti.jsx
 import React, { useEffect, useState } from "react";
 import ReactConfetti from "react-confetti";
 
