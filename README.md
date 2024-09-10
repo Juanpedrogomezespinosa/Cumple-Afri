@@ -1,104 +1,57 @@
-# Getting Started with Create React App
+# Felicitación de Cumpleaños Wendolín África
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web creada con React para mostrar una cuenta atrás hasta el cumpleaños de Wendolín África, y para mostrar un mensaje especial de cumpleaños el día 29 de septiembre. La aplicación incluye un contador que se reinicia automáticamente cada año y muestra el tiempo restante hasta el próximo cumpleaños.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Cuenta atrás hasta el 29 de septiembre del próximo año.
+- Mensaje de felicitación especial el día del cumpleaños.
+- Efecto de confeti en el día del cumpleaños.
+- Diseño oscuro con texto resaltante y responsivo.
 
-### `npm start`
+### Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js
+- npm (Administrador de paquetes de Node.js)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalación
 
-### `npm test`
+Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona este repositorio en tu máquina local:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/Juanpedrogomezespinosa/Cumple-Afri
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navega a la carpeta del proyecto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd Cumple-Afri
 
-### `npm run eject`
+3. Instala las dependencias del proyecto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicia el servidor de desarrollo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. La aplicación estará disponible en: http://localhost:3000.
 
-## Learn More
+#### Uso
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Una vez que la aplicación esté en funcionamiento, puedes hacer lo siguiente:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Ver la cuenta atrás para el cumpleaños de Wendolín África.
+- Ver el mensaje de felicitación y el confeti el día del cumpleaños (29 de septiembre).
+- Personalizar el diseño a tu gusto editando los archivos CSS.
 
-### Code Splitting
+##### Dependencias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este proyecto utiliza las siguientes dependencias principales:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-cumpleaños-wendolin-africa/
-├── public/
-│ ├── index.html
-│ └── ... (otros archivos estáticos como imágenes, favicon, etc.)
-├── src/
-│ ├── assets/ # Imágenes, fuentes, y otros archivos estáticos
-│ ├── components/ # Componentes reutilizables
-│ │ ├── Countdown/  
-│ │ ├── Countdown.jsx # Componente para el contador
-│ │ └── Countdown.css # estilos para el contador
-│ │ ├── Description/  
-│ │ ├── Description.jsx # Componente para la descripción de Wendolín África
-│ │ └── Description.css # estilos para la descripción de Wendolín África
-│ │ └── BirthdayMessage/
-│ │ ├── Countdown.jsx # Componente para el mensaje especial del cumpleaños
-│ │ └── Countdown.css # estilos para el # Componente para el mensaje especial del cumpleaños
-│ ├── pages/ # Páginas principales
-│ │ ├── Footer/  
-│ │ ├── Footer.jsx # Componente para el footer
-│ │ └── Footer.css # estilos para el footer
-│ │ ├── Header/  
-│ │ ├── Header.jsx # Componente para el header
-│ │ └── Header.css # estilos para el header
-│ │ ├── HomePage/
-│ │ └── HomePage.jsx # Página principal
-│ │ └── HomePage.css # Estilos para la página principal
-│ ├── utils/ # Utilidades y funciones auxiliares
-│ │ └── dateUtils.js # Funciones para manejar fechas
-│ ├── App.js # Componente principal de la aplicación
-│ ├── index.js # Archivo de entrada principal
-│ └── ... (otros archivos como serviceWorker.js, etc.)
-├── package.json
-└── README.md
+- React: Una biblioteca JavaScript para construir interfaces de usuario.
+- React Confetti: Una librería para mostrar efectos de confeti.
+- Otros paquetes necesarios que se encuentran en el archivo package.json.
+- Puedes encontrar la lista completa de dependencias en el archivo package.json.
