@@ -6,6 +6,7 @@ const Countdown = () => {
   const getTargetDate = (baseDate) => {
     const currentYear = new Date().getFullYear();
     const date = new Date(`${currentYear}-${baseDate}`);
+    date.setHours(date.getHours() - 2); // Restar 2 horas a la fecha objetivo
     return date;
   };
 
