@@ -81,7 +81,7 @@ const Countdown = () => {
     );
   });
 
-  const testDate = "2024-09-29";
+  const testDate = "2025-09-29";
   const showBirthdayMessage =
     today.toDateString() === new Date(testDate).toDateString();
 
@@ -96,12 +96,34 @@ const Countdown = () => {
           <div className="birthday-message">
             <h2>¡Feliz cumpleaños, Wendolín África! 🎉🎂</h2>
             <p>
-              Hoy celebramos tus 32 años con una gran sonrisa y mucha alegría.
-              Eres una persona increíble y mereces todo lo mejor en tu día
-              especial. Que este año esté lleno de aventuras, amor y momentos
-              inolvidables con tus seres queridos, y por supuesto, con tu fiel
-              amiga Chaska a tu lado. ¡Disfruta de cada momento y que todos tus
-              deseos se hagan realidad!
+              <strong>Bienvenida al lado malo, Afri.</strong> 😈
+              <br />
+              <br />
+              Hoy cumples 33 y, sinceramente, si esto fuera The Good Place,
+              estaría Janet organizando tu fiesta perfecta… pero como es el lado
+              malo, probablemente Dwight ha metido tu regalo en gelatina y Kevin
+              ha pisado la tarta. 🎂😅
+              <br />
+              <br />
+              Este año ha sido digno de un buen capítulo: despedidas tristes (💔
+              Kiba, Haku), un aniversario feliz, y tú buscando casa como si
+              fueras Michael intentando entender un contrato de alquiler.
+              <br />
+              <br />
+              ¿Te acuerdas cuando todos pensaban que éramos pareja? 😂 Qué
+              maravilla de sitcom vivimos… Y aún seguimos siendo mejores amigos,
+              como siempre. <br />
+              <br />
+              Hoy solo deseo que este nuevo año venga con salud, risas, que Sewa
+              y tú encontréis casa, y mucho amor del bueno —del que das tú sin
+              darte cuenta. Con El Feo, Chaska, Soja, y con ese caos adorable
+              que es tu vida.
+              <br />
+              <br />
+              <strong>You’re in the good place.</strong>
+              <br />
+              <br />
+              Feliz cumple, vieja puelca 💛
             </p>
           </div>
         )}
